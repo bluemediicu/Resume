@@ -1,0 +1,78 @@
+/* Frame */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.Wrapper{
+    width: 90%;
+    max-width: 750px;
+}
+
+.Nav{
+    width: 100%;
+    text-align: right;
+    font-size: 1.1rem;
+    height: 1.1rem;
+}
+
+a.navLink:visited{
+    color: rgb(0, 26, 229);
+}
+
+.pageTitle{
+    width: 100%;
+    color: rgb(0, 26, 229);
+    font-size: 3rem;
+}
+
+.Contact{
+    width: 100%;
+    text-align: right;
+    font-size: 1rem;
+}
+
+.section00{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 1.875rem;
+}
+
+.Footer{
+    width: 100%;
+    margin-top: 1.875rem;
+    font-size: 1.1rem;
+    height: 1.1rem;
+}
+
+.title01{
+    color: rgb(0, 26, 229);
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+
+
+
+
+.Cover{
+    width: 100%;
+}
+
+.imgDCC{
+    width: 100%;
+}
+
+.imgCover{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: justify;
+}
