@@ -31,11 +31,6 @@
                             <img class="imgCover" src="../img/photo/img01/1.jpg">
                             <img class="imgCover" src="../img/photo/img01/2.jpg">
                             <img class="imgCover" src="../img/photo/img01/3.jpg">
-                            <img class="imgCover" src="../img/photo/img01/4.jpg">
-                            <img class="imgCover" src="../img/photo/img01/5.jpg">
-                            <img class="imgCover" src="../img/photo/img01/6.jpg">
-                            <img class="imgCover" src="../img/photo/img01/7.jpg">
-
                     </div>
 
                     <div class="title01">
@@ -46,18 +41,79 @@
                     </div>
         
                 </div>
+
+                <div class="Cover">
+            
+                    <div class="imgDCC">
+                            <img class="imgCover" src="../img/photos/1.jpg">
+                    </div>
+
+                    <div class="title01">
+                        <div class="qiehuan">
+                            <!-- <div class="left" title="last pic">&lt;</div>
+                            <div class="right" title="next pic">&gt;</div>     -->
+                        </div>
+                    </div>
+        
+                </div>
                 
 
                 <div class="Cover">
             
                     <div class="imgDCC">
-                            <img class="imgCover2" src="../img/photo2/1.jpg">
-                            <img class="imgCover2" src="../img/photo2/2.jpg">
-                            <img class="imgCover2" src="../img/photo2/3.jpg">
-                            <img class="imgCover2" src="../img/photo2/4.jpg">
-                            <img class="imgCover2" src="../img/photo2/5.jpg">
-                            <img class="imgCover2" src="../img/photo2/6.jpg">
-                            <img class="imgCover2" src="../img/photo2/7.jpg">
+                            <video class="video" controls loop autoplay>
+                                <source src="../img/photos/2.MP4">
+                            </video>                            
+                    </div>
+
+                    <div class="title01">
+                        <div class="qiehuan">
+                            <!-- <div class="left" title="last pic">&lt;</div>
+                            <div class="right" title="next pic">&gt;</div>     -->
+                        </div>
+                    </div>
+        
+                </div>
+
+
+                <div class="Cover">
+            
+                    <div class="imgDCC">
+                            <img class="imgCover" src="../img/photos/3.jpg">                           
+                    </div>
+
+                    <div class="title01">
+                        <div class="qiehuan">
+                            <!-- <div class="left" title="last pic">&lt;</div>
+                            <div class="right" title="next pic">&gt;</div>     -->
+                        </div>
+                    </div>
+        
+                </div>
+                
+
+                <div class="Cover">
+            
+                    <div class="imgDCC">
+                            <img class="imgCover" src="../img/photos/4.jpg">                           
+                    </div>
+
+                    <div class="title01">
+                        <div class="qiehuan">
+                            <!-- <div class="left" title="last pic">&lt;</div>
+                            <div class="right" title="next pic">&gt;</div>     -->
+                        </div>
+                    </div>
+        
+                </div>
+
+
+                <div class="Cover">
+            
+                    <div class="imgDCC">
+                            <img class="imgCover2" src="../img/photo/img02/1.jpg">
+                            <img class="imgCover2" src="../img/photo/img02/2.jpg">
+                            <img class="imgCover2" src="../img/photo/img02/3.jpg">
                     </div>
 
                     <div class="title01">
@@ -68,7 +124,38 @@
                     </div>
         
                 </div>
-                
+
+
+                <div class="Cover">
+            
+                    <div class="imgDCC">
+                            <img class="imgCover" src="../img/photos/5.jpg">                           
+                    </div>
+
+                    <div class="title01">
+                        <div class="qiehuan">
+                            <!-- <div class="left" title="last pic">&lt;</div>
+                            <div class="right" title="next pic">&gt;</div>     -->
+                        </div>
+                    </div>
+        
+                </div>
+
+
+                <div class="Cover">
+            
+                    <div class="imgDCC">
+                            <img class="imgCover" src="../img/photos/6.jpg">                           
+                    </div>
+
+                    <div class="title01">
+                        <div class="qiehuan">
+                            <!-- <div class="left" title="last pic">&lt;</div>
+                            <div class="right" title="next pic">&gt;</div>     -->
+                        </div>
+                    </div>
+        
+                </div>
 
 
 
@@ -92,8 +179,8 @@
 
 
         <script>
-            let width = Math.min (window.screen.availWidth, 750);
-            let fontsize = (750/width) * 16;
+            let width = Math.min (window.screen.availWidth, 700);
+            let fontsize = (700/width) * 16;
             document.documentElement.style.fontSize = fontsize + "px";
 
 
@@ -106,7 +193,7 @@
                 // console.log(index);
                 // console.log(last);
 
-                if (index < 7) {
+                if (index < 3) {
                     document.getElementsByClassName('imgCover')[last].style.display = 'none';
                     document.getElementsByClassName('imgCover')[index].style.display = 'block';
 
@@ -128,8 +215,8 @@
                     document.getElementsByClassName('imgCover')[next].style.display = 'none';
 
                 } else {
-                    index = 6;
-                    document.getElementsByClassName('imgCover')[6].style.display = 'block';
+                    index = 2;
+                    document.getElementsByClassName('imgCover')[2].style.display = 'block';
                     document.getElementsByClassName('imgCover')[next].style.display = 'none';
                 }
             }
@@ -143,7 +230,7 @@
                 index2 ++;
                 last2 = index2 - 1;
 
-                if (index2 < 7) {
+                if (index2 < 3) {
                     document.getElementsByClassName('imgCover2')[last2].style.display = 'none';
                     document.getElementsByClassName('imgCover2')[index2].style.display = 'block';
 
@@ -164,8 +251,8 @@
                     document.getElementsByClassName('imgCover2')[next2].style.display = 'none';
 
                 } else {
-                    index2 = 6;
-                    document.getElementsByClassName('imgCover2')[6].style.display = 'block';
+                    index2 = 2;
+                    document.getElementsByClassName('imgCover2')[2].style.display = 'block';
                     document.getElementsByClassName('imgCover2')[next2].style.display = 'none';
                 }
             }

@@ -9,7 +9,7 @@ body{
 
 .Wrapper{
     width: 90%;
-    max-width: 750px;
+    max-width: 700px;
 }
 
 .Nav{
@@ -148,7 +148,7 @@ a.navLink:visited{
     cursor: pointer;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 700px) {
 
     .section00{
         width: 100%;
