@@ -73,7 +73,7 @@ a.navLink:visited{
     text-align: justify;
 }
 
-@media (min-width: 700px) {
+@media (orientation: landscape) {
 
     .section00{
         width: 100%;

@@ -148,7 +148,7 @@ a.navLink:visited{
     cursor: pointer;
 }
 
-@media (min-width: 700px) {
+@media (orientation: landscape) {
 
     .section00{
         width: 100%;
